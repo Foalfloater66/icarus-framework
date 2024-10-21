@@ -87,6 +87,8 @@ class BasePhase:
         # If the data has been computed and should be persisted, save it to file
         if self.persist and not read:
             st = time.time()
+            if not os.path.exists('result_dumps/'):
+                os.makedirs('result_dumps/')  
             compress_pickle.dump(
                 result, fname, compression="bz2", set_default_extension=False
             )

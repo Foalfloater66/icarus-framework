@@ -119,7 +119,7 @@ class StatPlotBuilder:
 
     # Line plot xy
     def line_xy(self, x: List, y: List, label: str) -> "StatPlotBuilder":
-        self.ax.plot("x", "y", data={"x": x, "y": y}, label=label)
+        self.ax.plot("x", "y", label=label)
         return self
 
     # Point plot xy
