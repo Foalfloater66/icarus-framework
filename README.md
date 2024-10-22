@@ -1,4 +1,6 @@
-# The ICARUS Attack Simulator
+# The ICARUS Attack Simulator [updated for 2024]
+
+> This is the up-to-date fixed code for the https://github.com/giacgiuliari/icarus-framework repository, functional as of 2024.
 
 This repository cointains the code for a new, extensible and customizable simulator for the ICARUS attack on satellite networks.  
 More specifically, two libraries are provided:
